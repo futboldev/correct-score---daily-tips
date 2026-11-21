@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms &amp; Conditions · Correct Scores</title>
+  <style>
+    :root {
+      --ink: #1b2430;
+      --navy: #0e4c8a;
+      --navy-deep: #0a3564;
+      --muted: #3d4a5c;
+      --soft: #d7e6f7;
+      --bg: #f3f6fa;
+      --line: #d9e2ec;
+      --card: #ffffff;
+      --accent: #0f8f63;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background:
+        linear-gradient(180deg, #e8eef6 0%, var(--bg) 180px);
+      color: var(--ink);
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--navy), var(--navy-deep));
+      color: #fff;
+      padding: 32px 20px 28px;
+    }
+    header .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    header p {
+      margin: 8px 0 0;
+      color: var(--soft);
+      font-size: 14px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(24px, 4vw, 32px);
+      letter-spacing: -0.02em;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 8px 20px 88px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin: 28px 0 10px;
+      color: var(--navy);
+    }
+
+    p, li { color: var(--muted); }
+    a { color: var(--navy); }
+    a:hover { color: var(--accent); }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      margin: 18px 0 8px;
+      padding: 12px 14px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      font-size: 14px;
+      box-shadow: 0 6px 18px rgba(14, 76, 138, 0.06);
+    }
+    .meta strong { color: var(--ink); }
+
+    .toc {
+      margin: 18px 0 8px;
+      padding: 14px 16px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(14, 76, 138, 0.06);
+    }
+    .toc h2 {
+      margin: 0 0 10px;
+      font-size: 15px;
+    }
+    .toc ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .toc li { margin: 4px 0; }
+    .toc a { text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+
+    section {
+      scroll-margin-top: 18px;
+    }
+
+    .updated {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    button.top {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      border: 0;
+      border-radius: 999px;
+      background: var(--navy);
+      color: #fff;
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(14, 76, 138, 0.25);
+      display: none;
+    }
+    button.top.show { display: inline-flex; align-items: center; }
+
+    @media (max-width: 560px) {
+      header { padding: 24px 16px; }
+      main { padding: 4px 16px 88px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Terms &amp; Conditions</h1>
+      <p>Correct Scores · package correctscores.dailytips</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="meta">
+      <span><strong>App:</strong> Correct Scores</span>
+      <span><strong>Package:</strong> correctscores.dailytips</span>
+      <span><strong>Last updated:</strong> <span id="updated">November 21, 2026</span></span>
+    </div>
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol id="toc"></ol>
+    </nav>
+
+    <p>
+      Welcome to <strong>Correct Scores</strong>. By using this app, you agree to these Terms &amp; Conditions.
+    </p>
+
+    <section id="age">
+      <h2>1. Age requirement</h2>
+      <p>
+        You must be at least 18 years old to use this app. If you are under 18, you must not use the app.
+      </p>
+    </section>
+
+    <section id="service">
+      <h2>2. Service description</h2>
+      <p>
+        The app provides football prediction content. Free tips are available without payment.
+        Paid boards (5 + Odds, Correct Score, HT/FT, and CS + HT/FT) require separate Google Play subscriptions
+        (weekly or monthly).
+      </p>
+    </section>
+
+    <section id="no-guarantee">
+      <h2>3. No guarantee</h2>
+      <p>
+        Predictions, Free tips, History results, and odds markets are opinions for entertainment
+        and informational purposes only. We make no guarantees of accuracy, match outcomes, odds value,
+        or winnings. Past Won or Lost results do not predict future performance. You are solely responsible
+        for any betting or financial decisions. Never stake money you cannot afford to lose.
+      </p>
+    </section>
+
+    <section id="subscriptions">
+      <h2>4. Subscriptions</h2>
+      <p>
+        Paid board access is sold per section. Weekly and monthly plans renew automatically through Google Play
+        until cancelled. Prices are shown in the purchase flow.
+      </p>
+    </section>
+
+    <section id="cancellations">
+      <h2>5. Cancellations and refunds</h2>
+      <p>
+        Cancel anytime in Google Play Store subscriptions. Refunds are handled under Google Play's
+        refund policies.
+      </p>
+    </section>
+
+    <section id="acceptable-use">
+      <h2>6. Acceptable use</h2>
+      <p>
+        You may not misuse the app, attempt to bypass paid board access, reverse engineer the app, or
+        redistribute paid tip content without permission.
+      </p>
+    </section>
+
+    <section id="ip">
+      <h2>7. Intellectual property</h2>
+      <p>
+        App design, branding, and tip content remain our property or that of our licensors.
+      </p>
+    </section>
+
+    <section id="liability">
+      <h2>8. Limitation of liability</h2>
+      <p>
+        To the fullest extent permitted by law, we are not liable for losses arising from use of
+        predictions, betting decisions, app downtime, or billing issues outside our control.
+      </p>
+    </section>
+
+    <section id="changes">
+      <h2>9. Changes</h2>
+      <p>
+        We may update these terms. Continued use after updates means you accept the revised terms.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>10. Contact</h2>
+      <p>
+        For terms questions, contact us at
+        <a href="mailto:correctscoresignal@gmail.com">correctscoresignal@gmail.com</a>.
+      </p>
+    </section>
+
+    <p class="updated">
+      Privacy policy:
+      <a href="https://kiproo54.github.io/correctscoredailt-free-tips-policy/">View privacy policy</a>
+    </p>
+  </main>
+
+  <button class="top" id="toTop" type="button" aria-label="Back to top">Top</button>
+
+  <script>
+    (function () {
+      var toc = document.getElementById("toc");
+      var sections = document.querySelectorAll("main section[id]");
+      sections.forEach(function (section) {
+        var heading = section.querySelector("h2");
+        if (!heading) return;
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.href = "#" + section.id;
+        a.textContent = heading.textContent.trim();
+        li.appendChild(a);
+        toc.appendChild(li);
+      });
+
+      var toTop = document.getElementById("toTop");
+      window.addEventListener("scroll", function () {
+        toTop.classList.toggle("show", window.scrollY > 420);
+      });
+      toTop.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      var updated = document.getElementById("updated");
+      if (updated) {
+        updated.setAttribute("datetime", "2026-11-21");
+      }
+    })();
+  </script>
+</body>
+</html>
